@@ -7,6 +7,7 @@ namespace SimpleOOPSExamples
     {
         static void Main(string[] args)
         {
+            //Collection for student.
             List<Student> studentCollection = new List<Student>{
                 new Student("Anderson","Sam",grade.A),
                 new Student("xxx","yyy",grade.C),
@@ -14,7 +15,7 @@ namespace SimpleOOPSExamples
                 new Student("Hilda","Spellmen", grade.D),
                 new Student("Linq", "Ash", grade.A)
             };
-
+            //Collection for worker.
             List<Worker> WorkerCollection = new List<Worker>
             {
                 new Worker("Cole", "Han", 1000, 8),
@@ -25,6 +26,7 @@ namespace SimpleOOPSExamples
             };
             Console.WriteLine(".................Student Details..............");
             bool firstTime = true;
+            //Display students
             foreach (var student in studentCollection.OrderBy(s => s.Grade))
             {
                 if (firstTime)
@@ -36,6 +38,7 @@ namespace SimpleOOPSExamples
             }
             Console.WriteLine(".................Worker Details..............");
             firstTime = true;
+            //Display workers.
             foreach (var worker in WorkerCollection.OrderBy(w => w.WeekSalary))
             {
                 if (firstTime)
