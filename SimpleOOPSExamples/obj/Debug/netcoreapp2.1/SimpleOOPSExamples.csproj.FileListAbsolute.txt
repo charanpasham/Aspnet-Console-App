@@ -1,0 +1,11 @@
+/Users/spasham/Projects/SimpleOOPSExamples/SimpleOOPSExamples/bin/Debug/netcoreapp2.1/SimpleOOPSExamples.deps.json
+/Users/spasham/Projects/SimpleOOPSExamples/SimpleOOPSExamples/bin/Debug/netcoreapp2.1/SimpleOOPSExamples.runtimeconfig.json
+/Users/spasham/Projects/SimpleOOPSExamples/SimpleOOPSExamples/bin/Debug/netcoreapp2.1/SimpleOOPSExamples.runtimeconfig.dev.json
+/Users/spasham/Projects/SimpleOOPSExamples/SimpleOOPSExamples/bin/Debug/netcoreapp2.1/SimpleOOPSExamples.dll
+/Users/spasham/Projects/SimpleOOPSExamples/SimpleOOPSExamples/bin/Debug/netcoreapp2.1/SimpleOOPSExamples.pdb
+/Users/spasham/Projects/SimpleOOPSExamples/SimpleOOPSExamples/obj/Debug/netcoreapp2.1/SimpleOOPSExamples.csprojAssemblyReference.cache
+/Users/spasham/Projects/SimpleOOPSExamples/SimpleOOPSExamples/obj/Debug/netcoreapp2.1/SimpleOOPSExamples.csproj.CoreCompileInputs.cache
+/Users/spasham/Projects/SimpleOOPSExamples/SimpleOOPSExamples/obj/Debug/netcoreapp2.1/SimpleOOPSExamples.AssemblyInfoInputs.cache
+/Users/spasham/Projects/SimpleOOPSExamples/SimpleOOPSExamples/obj/Debug/netcoreapp2.1/SimpleOOPSExamples.AssemblyInfo.cs
+/Users/spasham/Projects/SimpleOOPSExamples/SimpleOOPSExamples/obj/Debug/netcoreapp2.1/SimpleOOPSExamples.dll
+/Users/spasham/Projects/SimpleOOPSExamples/SimpleOOPSExamples/obj/Debug/netcoreapp2.1/SimpleOOPSExamples.pdb

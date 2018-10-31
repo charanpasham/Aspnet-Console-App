@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{39A82E1A-8198-4C68-A00E-441F3D88DBD3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimpleOOPSExamples/Program.cs">
+    <Files>
+      <File FileName="SimpleOOPSExamples/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SimpleOOPSExamples PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+</Properties>
