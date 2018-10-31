@@ -21,25 +21,27 @@ namespace SimpleOOPSExamples
                 new Worker("kevin", "Peterson", 2000, 8),
                 new Worker("kittens","Bared", 500,6),
                 new Worker("Mellisa","Smith",2890,9),
-                new Worker("Kender","Jess", 9789,10) 
+                new Worker("Kender","Jess", 9789,10)
             };
             Console.WriteLine(".................Student Details..............");
-            bool firstTime = true; 
-            foreach(var student in studentCollection.OrderBy(s => s.Grade)){
-                if(firstTime){
-                    Console.WriteLine(nameof(student.FirstName) + " " +nameof(student.LastName)+ " "+nameof(student.Grade));
-                    firstTime = false; 
+            bool firstTime = true;
+            foreach (var student in studentCollection.OrderBy(s => s.Grade))
+            {
+                if (firstTime)
+                {
+                    Console.WriteLine(nameof(student.FirstName) + " " + nameof(student.LastName) + " " + nameof(student.Grade));
+                    firstTime = false;
                 }
                 Console.WriteLine(student.FirstName + " " + student.LastName + " " + student.Grade);
             }
             Console.WriteLine(".................Worker Details..............");
-            firstTime = true; 
+            firstTime = true;
             foreach (var worker in WorkerCollection.OrderBy(w => w.WeekSalary))
             {
                 if (firstTime)
                 {
                     Console.WriteLine(nameof(worker.FirstName) + " " + nameof(worker.LastName) + " " + nameof(worker.WeekSalary)
-                                      +" "+ nameof(worker.WorkHoursPerDay)+ " "+ nameof(worker.MoneyPerHour));
+                                      + " " + nameof(worker.WorkHoursPerDay) + " " + nameof(worker.MoneyPerHour));
                     firstTime = false;
                 }
                 Console.WriteLine($"{worker.FirstName}  {worker.LastName}  {worker.WeekSalary} {worker.WorkHoursPerDay}  {worker.MoneyPerHour().ToString("##.##")}");
@@ -52,6 +54,7 @@ namespace SimpleOOPSExamples
     public enum grade{
         A,B,C,D,E,F
     }
+    //All the classes
     abstract public class Human{
         public string FirstName { get; set; }
         public string LastName { get; set; }
